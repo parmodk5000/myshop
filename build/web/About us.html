@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+     <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <style>
+    #wrapper{font-family:tahoma;}
+.container{width: 95%;
+margin: 0 auto;   
+}
+#subheader{
+    width: 100%;
+    height: 30px;
+    background:#D51F1F;
+    color: #fff;
+
+}
+#subheader p{
+    float: left;
+    margin-top: 7px;
+}
+#subheader a{
+    float: right;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+   
+}
+/*logo styleing*/
+#main-header{
+    width: 100%;
+    height: 100px;;
+    background: #E72727;
+    float:left;
+    margin-top: -15px;
+}
+#logo{
+    width: 250px;
+    margin-top: 10px;
+    float: left;
+}
+#ist{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 15px;
+    font-family: cursive;
+}
+#iist{
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 15px;
+    font-family: cursive;
+}
+/*seaching area style*/
+#search{
+    width: 650px;
+    float: left;
+    padding: 20px;
+    margin-left: 50px;
+}
+.search-area{
+    width: 500px;
+    height: 50px;
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    padding-left: 15px;
+}
+.search-btn{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: black;
+    margin-left: -100px;
+    margin-top: 1px;
+
+}
+/*this is for user menu style*/
+#user-menu{
+    width: 300px;
+    float: right;
+    margin-top: 20px;
+}
+/*this is for li style*/
+#user-menu li{
+    float: left;
+    width: 80px;
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+    border-left: 1px solid black;
+    
+}
+#user-menu li:hover{
+    font-size: 30px;
+    transition: all .5s ease;
+}
+#user-menu li a{
+    color: white;
+    text-decoration: none;
+    
+}
+        *{
+            margin:0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .team-section{
+           overflow: hidden;
+    text-align: center;
+    background: #EAE6E6;
+    padding: 100px;
+        }
+        .team-section{
+            text-transform: uppercase;
+            margin-bottom: 60px;
+            color: red;
+            font-size: 40px;
+        }
+        .border{
+            display: block;
+            margin: auto;
+            width: 160px;
+            height: 3px;
+            background: #3498db;
+            margin-bottom: 40px;
+        }
+        .ps{
+            margin-bottom: 40px;
+        }
+        .ps a{
+            display: inline-block;
+            margin: 0 30px;
+            width: 160px;
+            height: 160px;
+            overflow: hidden;
+            border-radius: 50%;
+        }
+        .ps a img{
+            width: 100%;
+            filter: grayscale(100%);
+            transition: 0.4s all;
+        }
+        .ps a:hover > img{
+            filter: none;
+        }
+        .section{
+            width: 600px;
+            margin: auto;
+            font-size: 20px;
+            color: white;
+            text-align: justify;
+            height: 0;
+            overflow: hidden;
+        }
+        .section{
+            height: auto;
+            
+        }
+        .name{
+            color: red;
+            display: block;
+            margin-bottom: 30px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div id="subheader">
+                <div class="contanier">
+                    <p>world fastest online place</p>
+                    <a href="#">Guest</a><a href="#">Consumer</a><a href="#">Download App</a><a href="#">Help</a>
+                </div>
+            </div>
+            
+        <!--==main header==-->
+        <div id="main-header">
+        <!--log-->
+        <div id ="logo">
+            <span id="ist">MY</span><span id="iist">Shop.com</span>
+        </div>
+        <!--==search area==-->
+        <div id="search">
+            <form action="">
+                <input class="search-area" type="text" name="text" placeholder="Search here">
+                <input class="search-btn" type="submit" name="submit" placeholder="SEARCH">
+            </form>
+        </div>
+        <div id="user-menu">
+            <li><a href="#">Cart</a></li>
+            <li><a href="Login.html">Login</a></li>
+            <li><a href="Sign.html">Register</a></li>
+        </div>
+        </div>
+        </div>
+    </div>
+    <div class="team-section">
+       <img src="Image/accomplishment-achievement-adult-1153215.jpg" style="width: 100%; height: 350px; margin-top: -80px;">
+       <span class="border"></span>
+        <h1>Our Team</h1>
+        <div class="ps">
+            <a href="#p1"><img src="Image/IMG1.jpg" alt="" style="width: 250px; height: 250px;"></a>
+            <a href="#p2"><img src="Image/IMG2.jpg" alt="" style="width: 250px; height: 250px;"></a>
+        </div>
+        <div class="section" id="p2">
+        <span class="name">Parmod kumar</span>
+        <span class="border"></span>
+    </div>
+    <div class="section" id="p2">
+        <span class="name">Sanjeev</span>
+        <span class="border"></span>
+    </div>
+    </div>
+    <p>
+        
+        About MY Shop – India’s Ultimate Online Shopping Site MY Shop’s vision is to create India’s most reliable and frictionless commerce ecosystem that creates life-changing experiences for buyers and sellers. In February 2010, Kunal Bahl along with Rohit Bansal, started MY Shop.com - India’s largest online shopping marketplace, with the widest assortment of 35 million plus products across 800 plus diverse categories from over 125,000 regional, national, and international brands and retailers. With millions of users and more than 300,000 sellers, MY Shop is the online shopping site for Internet users across the country, delivering to 6000+ cities and towns in India. In its journey till now, MY Shop has partnered with several global marquee investors and individuals such as SoftBank, BlackRock, Temasek, Foxconn, Alibaba, eBay Inc., Premji Invest, Intel Capital, Bessemer Venture Partners, Mr. Ratan Tata, among others. Online Shopping – A Boon The trend of online shopping is becoming a household name and so is MY Shop. MY Shop is the preferred choice of hundreds of thousands of online shoppers given its mammoth assortment of 15 million+ products, quick delivery even to the remotest corners of the country, and daily deals, discounts & offers to make products available at slashed down prices to our valuable customers. Get Started! Shop Online Today at MY Shop If you have been missing out on all the fun of online shopping thinking it requires one to be a technology aficionado then we have good news for you. Shopping online particularly at MY Shop is a child’s play; all you need is a mobile phone or laptop or tablet with Internet connection to get started. Simply log into MY Shop.com and browse through the wide assortment of products across categories. Once you have zeroed in on your favorite products, simply place the order by filling in the details; the products will be delivered right at your doorstep. Fulfill Your Entrepreneurial Dreams! Sell Today at MY Shop Thanks to easy-to-understand, flexible policies and SD Advisors to help sellers at each step, anyone from a manufacturer to wholesaler to retailer can sell on MY Shop. Begin your entrepreneurial journey with MY Shop as a seller by filling a simple registration form here. Once the registration process is done, you can start selling your products to the entire country by sitting at your home or office. Doesn't it sound thrilling? Of course, it is and the excitement will build up with every order you receive! Start selling at MY Shop today and see your business reach staggering heights. Shop on the Go – Install MY Shop App Today! You can shop for your favourite products at MY Shop even on the go using MY Shop App. Available for both Android and Apple users, the app can be downloaded from Google Play Store and Apple App Store respectively. The app is quick, user-friendly, and enables shoppers buy products with a breeze. What's more, get timely notifications on your phone or tablet so that you don't miss amazing deals and offers. Download the app right now and experience how fun it is to shop on your mobile!
+ 
+
+</p>
+<!--   FOOTER START================== -->
+    <br>
+    <footer class="footer">
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-3">
+            <h4 class="title">PARMOD KUMAR</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit, libero a molestie consectetur, sapien elit lacinia mi.</p>
+            <ul class="social-icon">
+            <a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#" class="social"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#" class="social"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" class="social"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            <a href="#" class="social"><i class="fa fa-google" aria-hidden="true"></i></a>
+            <a href="#" class="social"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+            </ul>
+            </div>
+        <div class="col-sm-3">
+            <h4 class="title">My Account</h4>
+            <span class="acount-icon">          
+            <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Wish List</a>
+            <a href="#"><i class="fa fa-cart-plus" aria-hidden="true"></i> Cart</a>
+            <a href="#"><i class="fa fa-user" aria-hidden="true"></i> Profile</a>
+            <a href="#"><i class="fa fa-globe" aria-hidden="true"></i> Language</a>           
+          </span>
+            </div>
+        <div class="col-sm-3">
+            <h4 class="title">Category</h4>
+            <div class="category">
+            <a href="men.html">men</a>
+            <a href="women.html">women</a>
+            <a href="men.html">boy</a>
+            <a href="women.html">girl</a>
+            <a href="women.html">bag</a>
+            <a href="men.html">T-shirt</a>
+            <a href="women.html">top</a>
+            <a href="men.html">shoes</a>
+            <a href="#">glass</a>
+            <a href="#">kit</a>
+            <a href="#">baby dress</a>
+            <a href="women.html">kurti</a>           
+            </div>
+            </div>
+        <div class="col-sm-3">
+            <h4 class="title">Payment Methods</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <ul class="payment">
+            <li><a href="#"><i class="fa fa-cc-amex" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-credit-card" aria-hidden="true"></i></a></li>            
+            <li><a href="#"><i class="fa fa-paypal" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-cc-visa" aria-hidden="true"></i></a></li>
+            </ul>
+            </div>
+        </div>
+        <hr>
+        
+        <div class="row text-center"> © 2017. Made with  by P.K.</div>
+        </div>
+        
+        
+    </footer>
+    
+</body>
+</html>
